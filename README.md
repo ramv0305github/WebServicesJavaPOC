@@ -1,0 +1,2 @@
+# WebServicesJavaPOC
+Repositories for POC
