@@ -1,0 +1,139 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.w2a</groupId>
+	<artifactId>SeleniumTesting</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-api</artifactId>
+    <version>2.14.1</version>
+</dependency>
+		
+
+		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>4.4.3</version>
+		</dependency> 
+		
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+ <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>6.14.3</version>
+    <scope>test</scope>
+</dependency> 
+
+<!-- https://mvnrepository.com/artifact/org.uncommons/reportng -->
+<dependency>
+    <groupId>org.uncommons</groupId>
+    <artifactId>reportng</artifactId>
+    <version>1.1.4</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
+<dependency>
+    <groupId>com.google.inject</groupId>
+    <artifactId>guice</artifactId>
+    <version>5.0.1</version>
+</dependency> 
+
+<!-- https://mvnrepository.com/artifact/io.rest-assured/json-schema-validator -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>json-schema-validator</artifactId>
+    <version>4.4.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>4.4.0</version>
+    <scope>test</scope>
+</dependency>
+
+ <!-- https://mvnrepository.com/artifact/io.rest-assured/json-path -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>json-path</artifactId>
+    <version>4.4.0</version>
+</dependency>
+ 
+<!-- https://mvnrepository.com/artifact/io.rest-assured/xml-path -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>xml-path</artifactId>
+    <version>4.4.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.rest-assured/spring-mock-mvc -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>spring-mock-mvc</artifactId>
+    <version>4.4.0</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.rest-assured/scala-support -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>scala-support</artifactId>
+    <version>4.4.0</version>
+    <scope>test</scope>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.0.0</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.0.0</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.scala-lang/scala3-library -->
+<dependency>
+    <groupId>org.scala-lang</groupId>
+    <artifactId>scala3-library_3</artifactId>
+    <version>3.0.2-RC1-bin-20210611-fcd837a-NIGHTLY</version>
+</dependency>
+
+<dependency>
+       <groupId>org.slf4j</groupId>
+       <artifactId>slf4j-api</artifactId>
+       <version>1.7.5</version>
+   </dependency>
+   <dependency>
+       <groupId>org.slf4j</groupId>
+       <artifactId>slf4j-log4j12</artifactId>
+       <version>1.7.5</version>
+   </dependency>
+   
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>4.0.9</version>
+</dependency>
+   
+
+</dependencies>
+</project>  
